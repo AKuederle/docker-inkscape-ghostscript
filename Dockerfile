@@ -1,1 +1,3 @@
-file:///home/arne/Documents/repos/work/MaD-Icon-Pack/Dockerfile
+FROM debian:jessie
+
+RUN apt-get update && apt-get install -y ghostscript inkscape
